@@ -1,3 +1,7 @@
+:root {
+  --header-font: "Poppins";
+}
+
 *,
 ::before,
 ::after {
@@ -12,9 +16,8 @@ html {
 }
 
 body {
-  font-family: "Poppins";
+  font-family: var(--header-font);
   color: #6070ff;
-  /* font-weight: 300; */
   line-height: 1.6;
   background-image: url("img/header-shapes\ mobile.png");
   background-position: center;
@@ -36,8 +39,7 @@ body {
   color: #6070ff;
   width: 7.6rem;
   height: 2rem;
-
-  font-family: "Poppins";
+  font-family: var(--header-font);
   font-style: normal;
   font-weight: 700;
   font-size: 1.8rem;
@@ -53,7 +55,7 @@ body {
 }
 
 .heading-one {
-  font-family: "Poppins";
+  font-family: var(--header-font);
   font-style: normal;
   font-weight: 700;
   font-size: 4rem;
@@ -64,7 +66,7 @@ body {
 }
 
 .heading-paragraph {
-  font-family: "Poppins";
+  font-family: var(--header-font);
   font-style: normal;
   font-weight: 400;
   font-size: 1.6rem;
@@ -80,11 +82,10 @@ body {
 }
 
 .link-connect {
-  font-family: "Poppins";
+  font-family: var(--header-font);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  /* line-height: 24px; */
   text-transform: uppercase;
   text-decoration: none;
   color: #7f8cff;
