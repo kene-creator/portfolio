@@ -11,6 +11,8 @@
 
 ## Live Demo (if available)
 
+[Live Demo Link](https://livedemo.com)
+
 ## Getting Started
 
 **This is an example of how you may give instructions on setting up your project locally.**
@@ -20,22 +22,22 @@ To get a local copy up and running follow these simple example steps.
 
 ### Install
 
--Wehint
--StyeLint
+-Webhint
+-StyleLint
 
-## Athors
+## Authors
 
-�� **Author1**
+👤 **Author1**
 
-- GitHub: [@kne-creator](https://github.com/kene-creator)
+- GitHub: [@kene-creator](https://github.com/kene-creator)
 - Twitter: [@kay_yung1](https://twitter.com/kay_yung1)
-- LinkedIn: [Kenechuwku Agagwu](https://www.linkedin.com/in/kenechukwu-agagwu-0780511a6/)
+- LinkedIn: [Kenechuwku Agagwu](https://linkedin.com/in/kenechukwuagagwu)
 
-## ��� Contributing
+## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to checkblue the [issues page](../../issues/).
+Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
@@ -47,7 +49,7 @@ Give a ⭐️ if you like this project!
 - Inspiration
 - etc
 
-## ��� License
+## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
 
