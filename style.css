@@ -19,17 +19,19 @@ body {
   font-family: var(--header-font);
   color: #6070ff;
   line-height: 1.6;
-  background-position: center;
-  background-size: cover;
 }
 
 .header {
   display: flex;
+  background-image: url("img/background.png");
   flex-direction: column;
   position: relative;
   border-bottom-left-radius: 0.5rem;
   height: 100vh;
+  width: 39rem;
   overflow: hidden;
+  background-position: center;
+  background-size: contain;
 }
 
 .header-img {
@@ -38,8 +40,6 @@ body {
   height: 59rem;
   left: -3.4rem;
   top: 10.04rem;
-  background-position: center;
-  background-size: contain;
 }
 
 .nav {
