@@ -19,20 +19,34 @@ body {
   font-family: var(--header-font);
   color: #6070ff;
   line-height: 1.6;
-  background-image: url("img/header-shapes\ mobile.png");
   background-position: center;
+  background-size: cover;
 }
 
 .header {
   display: flex;
   flex-direction: column;
-  margin: 2rem;
+  position: relative;
+  border-bottom-left-radius: 0.5rem;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.header-img {
+  position: absolute;
+  width: 37rem;
+  height: 59rem;
+  left: -3.4rem;
+  top: 10.04rem;
+  background-position: center;
+  background-size: contain;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 2rem;
 }
 
 .logo {
@@ -50,8 +64,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  margin-top: 12rem;
-  margin-bottom: 2rem;
+  /* margin-top: 12rem;
+  margin-bottom: 2rem; */
+  margin: 12rem 2rem 2rem 2rem;
 }
 
 .heading-one {
@@ -74,11 +89,12 @@ body {
   color: #344563;
 }
 
-.heading-link {
+.heading-links {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: flex-start;
+  margin-left: 2rem;
 }
 
 .link-connect {

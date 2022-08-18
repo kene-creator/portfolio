@@ -11,8 +11,6 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
-
 ## Getting Started
 
 **This is an example of how you may give instructions on setting up your project locally.**
@@ -31,9 +29,9 @@ To get a local copy up and running follow these simple example steps.
 
 - GitHub: [@kne-creator](https://github.com/kene-creator)
 - Twitter: [@kay_yung1](https://twitter.com/kay_yung1)
-- LinkedIn: [Kenechuwku Agagwu](https://linkedin.com/in/kenechukwuagagwu)
+- LinkedIn: [Kenechuwku Agagwu](https://www.linkedin.com/in/kenechukwu-agagwu-0780511a6/)
 
-## Ì¥ù Contributing
+## ÔøΩÔøΩÔøΩ Contributing
 
 Contributions, issues, and feature requests are welcome!
 
@@ -49,9 +47,8 @@ Give a ‚≠êÔ∏è if you like this project!
 - Inspiration
 - etc
 
-## Ì≥ù License
+## ÔøΩÔøΩÔøΩ License
 
 This project is [MIT](./LICENSE) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
