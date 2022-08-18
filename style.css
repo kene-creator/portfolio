@@ -24,6 +24,7 @@ body {
 
 .header {
   display: flex;
+  background-image: url("img/background.png");
   flex-direction: column;
   position: relative;
   border-bottom-left-radius: 5rem;
