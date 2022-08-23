@@ -385,18 +385,28 @@ body {
 
 /* contact-form */
 .section-contact {
-  background: #6070ff;
-  border-top-left-radius: 80px;
-  padding-bottom: 20px;
+  background-image: url("img/contact-form-bg.png");
+  background-position: right 2rem;
+  background-size: contain;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 37rem;
+  background-color: #6070ff;
+  border-top-left-radius: 80px;
+  padding: 10.3rem 0 5rem 0;
+  overflow: hidden;
+  width: 37.5rem;
+  height: 100%;
 }
 
 .section-contact-title {
   color: #fff;
+  width: 83%;
+  display: flex;
   align-items: center;
+  flex-direction: column;
+  margin-bottom: 8rem;
 }
 
 .section-contact-title h2 {
@@ -404,6 +414,68 @@ body {
   font-weight: bolder;
   line-height: 52px;
   font-family: inherit;
+  margin-top: 1.2rem;
+}
 
+.section-contact-title p {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  text-align: center;
+  color: #ebebff;
+}
 
+.section-contact-input {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  margin-bottom: 3.3rem;
+  padding: 1.5rem 16rem 1.5rem 1.6rem;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.section-contact-input::placeholder {
+  color: #172b4d;
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 2rem;
+}
+
+.section-contact-textarea {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  width: 100%;
+  height: 17rem;
+  padding: 1.5rem 3.8rem 1.5rem 1.5rem;
+}
+
+.section-contact-textarea::placeholder {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  color: #b3bac5;
+}
+
+.btn-contact {
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 1.6rem;
+  margin: 3rem 1rem 0 0;
+  width: 40%;
+  height: 5rem;
+  font-weight: 500;
+  white-space: nowrap;
+  font-size: 1.7rem;
+  line-height: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  cursor: pointer;
 }
