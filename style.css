@@ -382,3 +382,28 @@ body {
   -ms-transform: rotate(180deg);
   -o-transform: rotate(180deg);
 }
+
+/* contact-form */
+.section-contact {
+  background: #6070ff;
+  border-top-left-radius: 80px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 37rem;
+}
+
+.section-contact-title {
+  color: #fff;
+  align-items: center;
+}
+
+.section-contact-title h2 {
+  font-size: 40px;
+  font-weight: bolder;
+  line-height: 52px;
+  font-family: inherit;
+
+
+}
