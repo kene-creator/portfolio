@@ -19,7 +19,7 @@ body {
   font-family: var(--header-font);
   color: #6070ff;
   line-height: 1.6;
-  background: #e5e5e5;
+  background: #f4f4f7;
 }
 
 .header {
@@ -848,6 +848,10 @@ body {
     -moz-border-radius: 0.8rem;
     -ms-border-radius: 0.8rem;
     -o-border-radius: 0.8rem;
+  }
+
+  #btn-desktop-white {
+    margin: 3rem 1rem 10rem 0;
   }
 
   #btn-2 {
