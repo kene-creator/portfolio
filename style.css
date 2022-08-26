@@ -112,6 +112,12 @@ body {
   color: #344563;
 }
 
+.nav-item:hover {
+  transform: scale(1.2);
+  transform: skew(10deg);
+  transition: transform 0.5s;
+}
+
 .nav-items {
   opacity: 0;
 }
