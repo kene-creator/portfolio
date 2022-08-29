@@ -485,6 +485,14 @@ body {
   line-height: 2rem;
 }
 
+/* .section-contact-input:invalid {
+  border-bottom: 0.4rem solid red;
+}
+
+.section-contact-input:valid {
+  border-bottom: 0.4rem solid green;
+} */
+
 .section-contact-textarea {
   font-family: var(--header-font);
   font-size: 1.3rem;
