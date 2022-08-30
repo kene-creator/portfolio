@@ -176,6 +176,27 @@ body {
   -o-border-radius: 0.8rem;
   margin: 1rem auto;
   overflow: hidden;
+  background-color: #fff;
+}
+
+.card__side-front-1 {
+  background-image: url("img/Snapshoot-Desktop-1.png");
+}
+
+.card__side-front-2 {
+  background-image: url("img/Snapshoot-Portfolio(2).png");
+}
+
+.card__side-front-3 {
+  background-image: url("img/Snapshoot-portfolio(1).jpg");
+}
+
+.card__side-front-4 {
+  background-image: url("img/Snapshoot-Portfolio.png");
+}
+
+.view {
+  opacity: 1;
 }
 
 .section-heading {
@@ -423,7 +444,6 @@ body {
   -o-transform: rotate(180deg);
 }
 
-/* contact-form */
 .section-contact {
   background-image: url("img/contact-form-bg.png");
   background-position: right 2rem;
@@ -690,6 +710,10 @@ body {
 }
 
 @media only screen and (min-width: 75em) {
+  .view {
+    opacity: 0;
+  }
+
   .header {
     min-width: 56rem;
     height: 916px;
@@ -1003,5 +1027,126 @@ body {
   .section-text-grey {
     font-size: 1.8rem;
     font-weight: 400;
+  }
+
+  .card {
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    position: relative;
+  }
+
+  .card__side {
+    transition: all 0.8s ease;
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -ms-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .card__side-front {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .card__side-back {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    position: absolute;
+    top: 8rem;
+    left: 5rem;
+    width: 150%;
+  }
+
+  .card__cta {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card__price-only {
+    font-size: 4rem;
+    color: #212020;
+    text-align: center;
+  }
+
+  .card__price-value {
+    font-size: 5rem;
+    color: #212020;
+    font-weight: 600;
+  }
+
+  .card:hover .card__side-front {
+    transform: rotateY(-180deg);
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+  }
+
+  .card:hover .card__side-back {
+    transform: rotateY(0);
+    -webkit-transform: rotateY(0);
+    -moz-transform: rotateY(0);
+    -ms-transform: rotateY(0);
+    -o-transform: rotateY(0);
+  }
+
+  .btn-card {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    background-color: #396df2;
+    padding: 1.5rem 4rem;
+    margin: 1.5rem 0 1.5rem 0;
+    display: inline-block;
+    border-radius: 10rem;
+    transition: all 0.2s;
+    position: relative;
+    font-size: 2.5rem;
+    border: none;
+    cursor: pointer;
+  }
+
+  .btn-card:hover {
+    transform: translateY(-0.3px);
+    -webkit-transform: translateY(-0.3px);
+    -moz-transform: translateY(-0.3px);
+    -ms-transform: translateY(-0.3px);
+    -o-transform: translateY(-0.3px);
+  }
+
+  .btn-card::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.4s;
+    background-color: #396df2;
+  }
+
+  .btn-card:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    -webkit-transform: scaleX(1.4) scaleY(1.6);
+    -moz-transform: scaleX(1.4) scaleY(1.6);
+    -ms-transform: scaleX(1.4) scaleY(1.6);
+    -o-transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
   }
 }
