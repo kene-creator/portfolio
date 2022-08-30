@@ -179,22 +179,6 @@ body {
   background-color: #fff;
 }
 
-.card__side-front-1 {
-  background-image: url("img/Snapshoot-Desktop-1.png");
-}
-
-.card__side-front-2 {
-  background-image: url("img/Snapshoot-Portfolio(2).png");
-}
-
-.card__side-front-3 {
-  background-image: url("img/Snapshoot-portfolio(1).jpg");
-}
-
-.card__side-front-4 {
-  background-image: url("img/Snapshoot-Portfolio.png");
-}
-
 .view {
   opacity: 1;
 }
@@ -784,6 +768,9 @@ body {
   .img {
     width: 50rem;
     height: 40rem;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 
   .section-heading {
@@ -1148,5 +1135,21 @@ body {
     -ms-transform: scaleX(1.4) scaleY(1.6);
     -o-transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
+  }
+
+  .card__side-front-1 {
+    background-image: url("img/Snapshoot-Portfolio(1).jpg");
+  }
+
+  .card__side-front-2 {
+    background-image: url("img/Snapshoot-Portfolio.png");
+  }
+
+  .card__side-front-3 {
+    background-image: url("img/Snapshoot-portfolio(3).png");
+  }
+
+  .card__side-front-4 {
+    background-image: url("img/Snapshoot-Desktop-1.png");
   }
 }
