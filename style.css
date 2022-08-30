@@ -444,7 +444,6 @@ body {
   -o-transform: rotate(180deg);
 }
 
-/* contact-form */
 .section-contact {
   background-image: url("img/contact-form-bg.png");
   background-position: right 2rem;
@@ -505,14 +504,6 @@ body {
   font-size: 1.7rem;
   line-height: 2rem;
 }
-
-/* .section-contact-input:invalid {
-  border-bottom: 0.4rem solid red;
-}
-
-.section-contact-input:valid {
-  border-bottom: 0.4rem solid green;
-} */
 
 .section-contact-textarea {
   font-family: var(--header-font);
@@ -1136,15 +1127,6 @@ body {
     -o-transform: translateY(-0.3px);
   }
 
-  .btn-card:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
-    -webkit-transform: scaleX(1.4) scaleY(1.6);
-    -moz-transform: scaleX(1.4) scaleY(1.6);
-    -ms-transform: scaleX(1.4) scaleY(1.6);
-    -o-transform: scaleX(1.4) scaleY(1.6);
-    opacity: 0;
-  }
-
   .btn-card::after {
     content: "";
     display: inline-block;
@@ -1157,5 +1139,14 @@ body {
     z-index: -1;
     transition: all 0.4s;
     background-color: #396df2;
+  }
+
+  .btn-card:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    -webkit-transform: scaleX(1.4) scaleY(1.6);
+    -moz-transform: scaleX(1.4) scaleY(1.6);
+    -ms-transform: scaleX(1.4) scaleY(1.6);
+    -o-transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
   }
 }
