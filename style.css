@@ -472,9 +472,9 @@ body {
 .section-contact-input {
   background: #fff;
   border: 1px solid #cfd8dc;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   margin-bottom: 3.3rem;
-  padding: 1.5rem 16rem 1.5rem 1.6rem;
+  padding: 1.5rem 13rem 1.5rem 1.6rem;
   border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
@@ -491,13 +491,13 @@ body {
 
 .section-contact-textarea {
   font-family: var(--header-font);
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   width: 100%;
   height: 17rem;
-  padding: 1.5rem 3.8rem 1.5rem 1.5rem;
+  padding: 1.5rem 2rem 1.5rem 1.5rem;
 }
 
 .section-contact-textarea::placeholder {
@@ -573,15 +573,15 @@ body {
   }
 
   .section-contact-input {
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding: 1.5rem 5.7rem 1.5rem 1.6rem;
     margin: 2rem 1.5rem;
   }
 
   .section-contact-textarea {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     width: 90%;
-    margin: 1rem 1.5rem;
+    margin: 1rem 1.3rem;
   }
 
   .btn-contact {
