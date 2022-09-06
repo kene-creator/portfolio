@@ -4,7 +4,6 @@ const btnCloseModal = document.querySelector('.btn-close-modal');
 const modalList = document.querySelector('.modal-list');
 
 const modalOpen = (e) => {
-  e.preventDefault();
   modal.classList.remove('hidden');
 };
 
@@ -12,7 +11,11 @@ const modalClose = () => {
   modal.classList.add('hidden');
 };
 
-burgerIcon.addEventListener('click', modalOpen);
+burgerIcon.addEventListener('click', (e) => {
+  e.preventDefault();
+  modalOpen();
+});
+
 btnCloseModal.addEventListener('click', modalClose);
 
 modalList.addEventListener('click', (e) => {
