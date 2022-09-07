@@ -238,21 +238,4 @@ for (let i = 0; i < btnSection.length; i++) {
   });
 }
 
-// btnSection.forEach((el, index) => {
-//   el.addEventListener('click', (el) => {
-//     console.log('this is the target', el.target);
-//     console.log('this is the target', index);
-//     if (index === 4) {
-//       renderMarkup(index - 1);
-//     } else {
-//       renderMarkup(index);
-//     }
-//     Number(el.target.id.split('-')[1]) - 1;
-//     modalSectionOpen(el);
-//   });
-// });
 btnSectionClose.addEventListener('click', modalSectionClose);
-
-// const generateLi = function(e) {
-//   return ` <li class="info-btn">${}</li>`
-// }
