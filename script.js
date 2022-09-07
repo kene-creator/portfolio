@@ -1,17 +1,13 @@
 const burgerIcon = document.querySelector('.burger-icon');
 const modal = document.querySelector('.modal');
-const modalPhone = document.querySelector('.modal-phone');
 const btnCloseModal = document.querySelector('.btn-close-modal');
 const modalList = document.querySelector('.modal-list');
 const btnSection = document.querySelectorAll('.btn-work-section');
 const btnSectionClose = document.querySelector('.modal-phone-close');
 const overlay = document.querySelector('.overlay');
 const modalMarkup = document.querySelector('.modal-markup');
-const body = document.querySelector('body');
 
-console.log(btnSection);
-
-const modalOpen = (e) => {
+const modalOpen = () => {
   modal.classList.remove('hidden');
 };
 
@@ -234,7 +230,7 @@ const renderMarkup = (e) => {
 };
 
 for (let i = 0; i < btnSection.length; i++) {
-  btnSection[i].addEventListener('click', (el) => {
+  btnSection[i].addEventListener('click', () => {
     modalSectionOpen();
     if (i === 4) {
       return renderMarkup(i - 1);

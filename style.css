@@ -196,9 +196,6 @@ body {
   background-position: center;
 }
 
-.modal-img-mobile {
-}
-
 .view {
   opacity: 1;
 }
@@ -1080,7 +1077,6 @@ body {
 
   .modal-text {
     height: 19rem;
-    margin-bottom: -25rem;
     flex-direction: row;
     justify-content: space-between;
     margin: 26rem 3rem -87rem 3rem;
@@ -1280,7 +1276,6 @@ body {
 
   .modal-desktop {
     visibility: visible;
-    /* width: 40%; */
     flex-wrap: wrap;
   }
 
