@@ -23,8 +23,6 @@ const modalClose = () => {
   modal.classList.add('hidden');
 };
 
-overlay.addEventListener('click', modalSectionClose);
-
 burgerIcon.addEventListener('click', (e) => {
   e.preventDefault();
   modalOpen();
@@ -163,8 +161,8 @@ const renderMarkup = (e) => {
         class="img display modal-img-mobile"
       />
 
-      <div class="diplay-none">
-        <div class="img">
+      <div class="display-none">
+        <div class="">
         <img src="${infoArr[e].imgDesktop}" class="modal-img-desktop">
         </div>
       </div>
@@ -182,7 +180,7 @@ const renderMarkup = (e) => {
       remaining essent
     </p>
     <p class="modal-paragraph display-none">
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a 
     </p>
 
     <div>
