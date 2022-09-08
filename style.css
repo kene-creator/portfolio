@@ -722,7 +722,9 @@ body {
 
 .error-message {
   color: orangered;
-  font-size: 3rem;
+  font-size: 2rem;
+  line-height: 2rem;
+  margin-left: 1rem;
 }
 
 @media only screen and (min-width: 390px) {
@@ -997,6 +999,12 @@ body {
 }
 
 @media only screen and (min-width: 75em) {
+  .error-message {
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-left: 0;
+  }
+
   .modal-btns {
     flex-direction: row;
     width: 90%;

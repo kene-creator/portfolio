@@ -9,6 +9,8 @@ const modalMarkup = document.querySelector('.modal-markup');
 const emailInput = document.querySelector('.email-input');
 const form = document.querySelector('.section-contact-form');
 const btnContact = document.querySelector('.btn-contact');
+const nameInput = document.querySelector('.name-input');
+const textareaInput = document.querySelector('.textarea-input');
 
 const modalOpen = () => {
   modal.classList.remove('hidden');
@@ -243,8 +245,6 @@ for (let i = 0; i < btnSection.length; i++) {
 
 btnSectionClose.addEventListener('click', modalSectionClose);
 
-console.log(emailInput, form);
-
 const errorMarkup = '<p class="error-message">Email should be in lowercase</p>';
 
 form.addEventListener('submit', (e) => {
@@ -258,4 +258,22 @@ form.addEventListener('submit', (e) => {
     emailInput.value = '';
     btnContact.insertAdjacentHTML('beforebegin', errorMarkup);
   }
+});
+
+const data = {
+  name: nameInput.value,
+  email: emailInput.value,
+  textarea: textareaInput.value,
+};
+
+btnContact.addEventListener('click', () => {
+  localStorage.setItem('name', JSON.stringify(data.name));
+  localStorage.setItem('email', JSON.stringify(data.email));
+  localStorage.setItem('textarea', JSON.stringify(data.textarea));
+});
+
+window.addEventListener('load', function () {
+  emailInput.value = JSON.parse(localStorage.getItem('email'));
+  nameInput.value = JSON.parse(localStorage.getItem('name'));
+  textareaInput.value = JSON.parse(localStorage.getItem('textarea'));
 });
