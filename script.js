@@ -6,6 +6,9 @@ const btnSection = document.querySelectorAll('.btn-work-section');
 const btnSectionClose = document.querySelector('.modal-phone-close');
 const overlay = document.querySelector('.overlay');
 const modalMarkup = document.querySelector('.modal-markup');
+const emailInput = document.querySelector('.email-input');
+const form = document.querySelector('.section-contact-form');
+const btnContact = document.querySelector('.btn-contact');
 
 const modalOpen = () => {
   modal.classList.remove('hidden');
@@ -239,3 +242,20 @@ for (let i = 0; i < btnSection.length; i++) {
 }
 
 btnSectionClose.addEventListener('click', modalSectionClose);
+
+console.log(emailInput, form);
+
+const errorMarkup = '<p class="error-message">Email should be in lowercase</p>';
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+
+  const email = emailInput.value;
+
+  if (email === email.toLowerCase()) {
+    form.submit();
+  } else if (email !== email.toLowerCase()) {
+    emailInput.value = '';
+    btnContact.insertAdjacentHTML('beforebegin', errorMarkup);
+  }
+});

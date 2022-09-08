@@ -720,6 +720,11 @@ body {
   visibility: hidden;
 }
 
+.error-message {
+  color: orangered;
+  font-size: 3rem;
+}
+
 @media only screen and (min-width: 390px) {
   .modal-phone {
     position: relative;
@@ -1334,7 +1339,7 @@ body {
     background: #fff;
     border: 1px solid #cfd8dc;
     margin-bottom: 2.7rem;
-    padding: 1.5rem 30rem 1.5rem 1.6rem;
+    padding: 3rem 30rem 1.5rem 1.6rem;
     border-radius: 0;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
