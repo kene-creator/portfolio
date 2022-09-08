@@ -245,8 +245,6 @@ for (let i = 0; i < btnSection.length; i++) {
 
 btnSectionClose.addEventListener('click', modalSectionClose);
 
-console.log(emailInput, form);
-
 const errorMarkup = '<p class="error-message">Email should be in lowercase</p>';
 
 form.addEventListener('submit', (e) => {
@@ -267,8 +265,6 @@ const data = {
   email: emailInput.value,
   textarea: textareaInput.value,
 };
-
-console.log(data);
 
 btnContact.addEventListener('click', () => {
   localStorage.setItem('name', JSON.stringify(data.name));
