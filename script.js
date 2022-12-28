@@ -47,10 +47,10 @@ modalList.addEventListener('click', (e) => {
 
 const infoArr = [
   {
-    nameMobile: 'Tonic',
+    nameMobile: 'Furniture E-commerce Store',
     nameDesktop: 'Tonic',
-    imgDesktop: 'img/Snapshoot-Desktop-1.png',
-    imgMobile: 'img/Snapshoot-Portfolio.png',
+    imgDesktop: 'img/gamma.png',
+    imgMobile: 'img/gamma.png',
     descriptionDesktop:
       'A daily selection of privately read personalized reads; no accounts or sign-ups required',
     descriptionMobile:
@@ -232,16 +232,16 @@ const renderMarkup = (e) => {
   modalMarkup.insertAdjacentHTML('afterbegin', markupPhone);
 };
 
-for (let i = 0; i < btnSection.length; i++) {
-  btnSection[i].addEventListener('click', () => {
-    modalSectionOpen();
-    if (i === 4) {
-      return renderMarkup(i - 1);
-    } else {
-      return renderMarkup(i);
-    }
-  });
-}
+// for (let i = 0; i < btnSection.length; i++) {
+//   btnSection[i].addEventListener('click', () => {
+//     modalSectionOpen();
+//     if (i === 4) {
+//       return renderMarkup(i - 1);
+//     } else {
+//       return renderMarkup(i);
+//     }
+//   });
+// }
 
 btnSectionClose.addEventListener('click', modalSectionClose);
 
